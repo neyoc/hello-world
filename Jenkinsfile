@@ -26,7 +26,7 @@ pipeline {
                     withMaven(maven : 'maven-3') {
                       sh 'mvn deploy'
                     }
-              }
+                 }
             }
         }
     }
